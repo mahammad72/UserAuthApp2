@@ -66,7 +66,7 @@ App.tsx
 ApplicationVideo/
 └── Full application demo video
 
-
+```
 ---
 
 ## ▶️ Application Demo
