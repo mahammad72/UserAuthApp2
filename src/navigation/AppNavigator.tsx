@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, Platform } from 'react-native'
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator();
 
 const AppNavigator = () => {
      const { user } = useAuth();
-     console.log('-----user ', user)
+     console.log(`-----user ${Platform.OS} `, user)
   return (
    <NavigationContainer>
     <Stack.Navigator initialRouteName="Login">

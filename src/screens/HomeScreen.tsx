@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { useAuth } from '../context/AuthContext';
+import { Color } from '../common/Colors';
 
 const HomeScreen = ({ navigation }: any) => {
   const { user, logout } = useAuth();
@@ -48,14 +49,14 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   card: {
-    backgroundColor: '#f5f5f5',
+    backgroundColor: Color.background,
     padding: 20,
     borderRadius: 12,
     marginBottom: 30,
   },
   label: {
     fontSize: 14,
-    color: '#555',
+    color: Color.label,
   },
   value: {
     fontSize: 18,
@@ -63,13 +64,13 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   button: {
-    backgroundColor: '#E74C3C',
+    backgroundColor: Color.red,
     padding: 14,
     borderRadius: 8,
     alignItems: 'center',
   },
   buttonText: {
-    color: '#fff',
+    color: Color.white,
     fontWeight: '600',
   },
 });

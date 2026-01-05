@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useAuth } from '../context/AuthContext';
+import { Color } from '../common/Colors';
 
 const LoginScreen = ({ navigation }: any) => {
   const { login } = useAuth();
@@ -101,7 +102,7 @@ const styles = StyleSheet.create({
   },
   input: {
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: Color.border,
     borderRadius: 8,
     padding: 12,
     marginBottom: 12,
@@ -110,7 +111,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: Color.border,
     borderRadius: 8,
     paddingHorizontal: 12,
     marginBottom: 12,
@@ -120,23 +121,23 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
   },
   button: {
-    backgroundColor: '#4A90E2',
+    backgroundColor: Color.primary,
     padding: 14,
     borderRadius: 8,
     alignItems: 'center',
     marginTop: 10,
   },
   buttonText: {
-    color: '#fff',
+    color: Color.white,
     fontWeight: '600',
   },
   link: {
     marginTop: 15,
-    color: '#4A90E2',
+    color: Color.primary,
     textAlign: 'center',
   },
   error: {
-    color: 'red',
+    color: Color.error,
     marginBottom: 10,
     textAlign: 'center',
   },
