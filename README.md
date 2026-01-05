@@ -43,8 +43,7 @@ A simple **User Authentication mobile application** built using **React Native a
 - React Context API
 - React Navigation
 - AsyncStorage
-- Expo
-- @expo/vector-icons
+- react-native-vector-icons
 
 ---
 
