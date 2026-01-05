@@ -70,6 +70,9 @@ ApplicationVideo/
 
 ## ▶️ Application Demo
 
+Demo Video:
+https://drive.google.com/file/d/1Z6sNv2nYmDzAEyF6P2-w8oaMDeAl1TOp/view?usp=drive_link
+
 📁 **ApplicationVideo**  
 This folder contains a full working demo video showcasing:
 - Signup flow
