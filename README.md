@@ -48,19 +48,20 @@ A simple **User Authentication mobile application** built using **React Native a
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 src/
 ├── context/
-│ └── AuthContext.tsx
+│   └── AuthContext.tsx
 ├── navigation/
-│ └── AppNavigator.tsx
+│   └── AppNavigator.tsx
 ├── screens/
-│ ├── LoginScreen.tsx
-│ ├── SignupScreen.tsx
-│ └── HomeScreen.tsx
+│   ├── LoginScreen.tsx
+│   ├── SignupScreen.tsx
+│   └── HomeScreen.tsx
 ├── types/
-│ └── auth.ts
+│   └── auth.ts
 App.tsx
 ApplicationVideo/
 └── Full application demo video
